@@ -1,3 +1,15 @@
+
+######################################
+## Author:   Riti Kumari (sinhariti61@gmail.com)
+## Date:     2018-04-02
+## Title:    Natural Language Processing 
+## Purpose:  Analysis of Toyota Camry reviews for the year 2012-2016
+#            Train the model and predict the output rating for the year 2017
+#            Categorized the reviews as per the tags (Service, Handling, Price , Interior) 
+#            Calculated the sentiment score (AFINN Score) for each review
+#            Visualized the word for the highest tf-idf score for each tag using ggplot2
+######################################
+
 library(shiny)
 library(rvest)
 library(tm)
